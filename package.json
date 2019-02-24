@@ -1,0 +1,25 @@
+{
+  "name": "konfik",
+  "version": "0.0.1-alpha1",
+  "description": "A simple CLI to manage multiple kubeconfigs",
+  "main": "src/konfik.js",
+  "scripts": {
+    "build": "pkg . -t node8-linux,node8-macos,node8-win --out-path dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "konfik": "src/konfik.js"
+  },
+  "pkg": {
+    "scripts": "src/*.js"
+  },
+  "author": "Felicitas Pojtinger <felicitas@pojtinger.com>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.7"
+  }
+}
