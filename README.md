@@ -23,9 +23,9 @@ Commands:
 
 ```bash
 # Install on Linux
-curl -L https://gitlab.com/pojntfx/pojntfx/-/jobs/artifacts/master/download?job=konfik -o /tmp/konfik.zip && unzip /tmp/konfik.zip -d /tmp/konfik && sudo cp /tmp/konfik/packages/konfik/dist/konfik-linux /usr/bin/konfik
+curl -L https://gitlab.com/pojntfx/pojntfx/-/jobs/artifacts/master/download?job=konfik -o /tmp/konfik.zip && unzip /tmp/konfik.zip -d /tmp/konfik && sudo cp /tmp/konfik/packages/konfik/dist/konfik-linux /tmp/konfik/packages/konfik/dist/konfik && sudo install /tmp/konfik/packages/konfik/dist/konfik /usr/local/bin
 # Install on macOS
-curl -L https://gitlab.com/pojntfx/pojntfx/-/jobs/artifacts/master/download?job=konfik -o /tmp/konfik.zip && unzip /tmp/konfik.zip -d /tmp/konfik && sudo cp /tmp/konfik/packages/konfik/dist/konfik-macos /usr/bin/konfik
+curl -L https://gitlab.com/pojntfx/pojntfx/-/jobs/artifacts/master/download?job=konfik -o /tmp/konfik.zip && unzip /tmp/konfik.zip -d /tmp/konfik && sudo cp /tmp/konfik/packages/konfik/dist/konfik-macos /usr/local/bin/konfik
 ```
 
 ## Docs
