@@ -8,15 +8,15 @@ A simple CLI to manage multiple kubeconfigs.
 Usage: konfik [options] [command]
 
 Options:
-  -V, --version                     output the version number
-  -h, --help                        output usage information
+  -V, --version                       output the version number
+  -h, --help                          output usage information
 
 Commands:
-  ls                                List all kubeconfigs
-  activate [kubeconfig.{yml,yaml}]  Activate a kubeconfig
-  cat [kubeconfig.{yml,yaml}]       Get a kubeconfig
-  current                           Get the current kubeconfig
-  help [cmd]                        display help for [cmd]
+  list|l                              List all kubeconfigs
+  activate|a [kubeconfig.{yml,yaml}]  Activate a kubeconfig
+  get|g [kubeconfig.{yml,yaml}]       Get a kubeconfig
+  current|c                           Get the current kubeconfig
+  help [cmd]                          display help for [cmd]
 ```
 
 ## Usage

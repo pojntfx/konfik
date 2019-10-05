@@ -4,8 +4,12 @@ const commander = require("commander");
 
 commander
   .version("0.0.1-alpha1")
-  .command("ls", "List all kubeconfigs")
+  .command("list", "List all kubeconfigs")
+  .alias("l")
   .command("activate [kubeconfig.{yml,yaml}]", "Activate a kubeconfig")
-  .command("cat [kubeconfig.{yml,yaml}]", "Get a kubeconfig")
+  .alias("a")
+  .command("get [kubeconfig.{yml,yaml}]", "Get a kubeconfig")
+  .alias("g")
   .command("current", "Get the current kubeconfig")
+  .alias("c")
   .parse(process.argv);
